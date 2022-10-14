@@ -1,0 +1,131 @@
+Q.1: Create two integer variables length and breadth and assign values then check if they are square values or rectangle values.
+ie: if both values are equal then it's square otherwise rectangle.
+
+
+   int lenght = 4 ;
+  int breadth = 6;
+  if(lenght == breadth){
+    print("its Square");
+  }
+  else{
+    
+    print("it's rectangle");
+  }
+  
+  
+Q.3: A student will not be allowed to sit in exam if his/her attendence is less than 75%. Create integer variables and assign value:
+Number of classes held = 16,
+Number of classes attended = 10,
+and print percentage of class attended.
+Is student is allowed to sit in exam or not?
+
+
+int total  = 16;
+int  attandad = 10;
+ double percentage = (attandad/total*100);
+  num req_per = 75;
+  if(percentage<req_per){
+    print("he will not be allowed in Exam");
+    
+  }
+  else{
+    
+    print("his Percantage is above than 75 he was able to sit in Exam");
+  }
+  
+  
+  Q.2: Take two of age of 3 people by user and determine oldest and youngest among them.
+
+
+  int fahad = 23;
+  int owais = 27;
+  int aslam = 30;
+  if(fahad<owais){
+    print("fahad is younger");
+    if(owais<aslam){
+      print("aslam is older");
+    }
+    else{
+      print("owais is older");
+    }
+  }
+  
+  
+  Q.5  Write a program to read temperature in centigrade and display a suitable message according to temperature:
+You have num variable temperature = 42;
+Now print the message according to temperature:
+temp < 0 then Freezing weather
+temp 0-10 then Very Cold weather
+temp 10-20 then Cold weather
+temp 20-30 then Normal in Temp
+temp 30-40 then Its Hot
+temp >=40 then Its Very Hot
+
+
+
+    num temprature = 42;
+  if(temprature< 0 ){
+    
+    print("it's Freezing weather '0 °C'");
+  }
+     else if(temprature> 0 && temprature < 10){
+      print("Very Cold weather");
+      
+    }
+    else if(temprature>10 && temprature<20){
+      print("Cold Weather");
+    }
+    else if(temprature>20 && temprature<30){
+      print("Normal in Temprature");
+ 
+    }
+    else if(temprature>30 && temprature<40){
+      print("its Hot");
+    }
+    else if(temprature>=40){
+      print("it's very Hot Today");
+      
+    }
+	
+	
+	
+	
+	Q.6: Write a program to check whether an alphabet is a vowel or consonant.
+	
+	 var check = "a, e, i, o, u";
+  var check2 = "b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z";
+    
+  print("Vowels Letters $check\nConstent Letters $check2");
+  
+  
+  Q.7: Write a program to calculate and print the Electricity bill of a given customer. 
+  Create variable for customer id, name, unit consumed by the user, bill_amount and print the total amount the customer needs to pay. 
+  
+  
+  int id = 1001;
+  var name = "James";
+  double units = 1200.00;
+  var charge = 2.00;
+  print("Customer IDNO: $id\nCustomer Name: $name\nunits Consumed: $units");
+  print("Amount Charges @Rs. 2.00 per unit : 1200.00");
+  print("Net bill amount: ${units*charge}");
+  
+  
+  Q.4: Create integer variable assign any year to it and check if a year is leap year or not.
+If a year is divisible by 4 then it is leap year but if the year is century year like 2000, 1900, 2100 then it must be divisible by 400.
+
+  if(a%2==0){
+    print("its leap year");
+   
+    
+    
+  }
+  else{
+    print("its not leap year");
+  }
+  
+
+
+
+
+
